@@ -1,0 +1,51 @@
+
+<html>
+    <head>
+        <title> Questão 4 </title>
+        <style>
+
+            body {
+                background-color: #9999ff;
+                text-align: center;
+                font-size: large;
+            }
+            h1{
+                background-color:#476b6b;
+                text-align: center;
+            }
+            section {
+                background-color: #d699ff;
+                border: 10px solid #ccff66;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> Questão 0.4 </h1>
+        <section>
+            <h1 id="s"> O somatório dos valores é igual a: </h1>
+            <h1 id="m"> O valor da média aritmética dos valores é igual a: </h1>
+        </section>
+
+        <script>
+            var c = 0;
+            var soma = 0;
+            var media = 0;
+            do {
+                var n1 = parseFloat (prompt("Informe o número:\n Digite 0, caso queira parar!"));
+                c++;
+                soma+=n1;
+                media++;
+                                
+                if(n1==0) {
+                    media--
+                    break;
+                 }   
+            }
+            while (c < 20) 
+            var ma= soma/media;
+            s.innerHTML+=`${soma}`;
+            m.innerHTML += `${ma}`;
+        </script>
+    </body>
+</html>
